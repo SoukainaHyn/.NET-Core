@@ -1,0 +1,136 @@
+﻿.header {
+    text-align: center;
+    color: darkgreen;
+    padding-bottom: 35px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td, th {
+    /* border: 1px solid gray; */
+    /*border-bottom: 1px solid #ddd;*/
+    padding: 15px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    /*font-size: 20px;*/
+    /*text-align: center;*/
+}
+
+table th {
+    background-color: darkgreen;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+
+.table-titre {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+    font-size: 14px;
+    background-color: white;
+    color: black;
+}
+
+.droite,
+.droite th,
+.droite tr {
+    text-align: right;
+}
+
+.montant,
+.montant th,
+.montant td,
+.montant tr {
+    text-align: right;
+    margin-right: 11px;
+    padding-right: 11px;
+}
+
+.gauche,
+.gauche th,
+.gauche tr {
+    text-align: left;
+}
+
+.centre, .center {
+    text-align: center;
+}
+
+.vertical-gauche {
+    border-left: 1px solid #4f4e4e;
+}
+
+.vertical-droite {
+    border-right: 1px solid #4f4e4e;
+}
+
+.table-sous-titre {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 30px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+    background-color: white;
+    color: black;
+}
+
+.table-titre th, .table-sous-titre th {
+    font-size: 16px;
+    background-color: white;
+    color: black;
+}
+
+.table-sous-titre .colonne {
+    border-right: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+}
+
+.table-imbriquee, .table-imbriquee tr:nth-child(even) {
+    background-color: white;
+    font-size: 13px;
+}
+
+#journaux {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#journaux thead > td, #journaux thead > th, #journaux td, #journaux th {
+    padding: 10px;
+}
+
+#journaux tbody {
+    font-size: 12px;
+}
+
+#journaux td, #journaux th {
+    /*border: 1px solid #ddd;*/
+    padding: 8px;
+}
+
+#journaux tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#journaux tbody:nth-child(even) {
+    background-color: #dddcdc;
+    border: 1px solid #4f4e4e;
+}
+
+#journaux th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    /*text-align: left;*/
+    background-color: darkgreen;
+    color: white;
+}
